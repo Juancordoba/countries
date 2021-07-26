@@ -1,0 +1,79 @@
+.form{
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid $color;
+    margin: auto;
+}
+
+.form-input{
+     padding: 0.3em;
+     outline: none;
+     border: 1px solid #fff;
+     border-radius: 0.2em;
+     border: 1px solid $color;
+     width: 80%;
+     opacity: 0.7;
+     font-size: small;
+     margin: auto;
+ }
+
+ .lbl-form{
+     margin-left: 1.5em;
+     text-align: left;
+     font-size: small;
+     color: $bg_color;
+
+ }
+
+ .btn-submit{
+   outline: none;
+    margin: 1em 0em;
+    color: $bg_color;
+    font-size: larger;
+    border: none;
+    background-color: #fff;
+}
+
+.btn-submit:hover{
+  cursor: pointer;
+  font-weight: 600;
+}
+
+ .btn1{
+    background-color: $color;
+    border: 1px solid $color;
+    outline: none;
+    border-radius: 0.5em;
+    color: $bg_color;
+}
+
+.btn1:hover{
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn1:active{
+  color: red;
+}
+
+.countries-container{
+  margin:auto;
+  text-align: left;
+  border: 1px solid $color;
+  width: 80%;
+  max-height: 25vh;
+  overflow-y: scroll;
+}
+
+.form-group-btn{
+  padding: 1em auto;;
+}
+
+p.danger {
+  color: red;
+  font-size: 10px;
+}
+
+input.danger {
+  background-color: lightcoral;
+}

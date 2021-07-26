@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: center;
+  }
+
+
+.link-danger{
+    background-color: $bg_color;
+    color: #E74C3C;
+    font-weight: bold;
+    padding: 0.2em 1em;
+    outline:none;
+    border: 0px;
+}
+
+.link-danger:hover{
+    cursor: pointer;
+    background-color: #EDBB99;
+    border-radius: 5px;
+}
+
+.link-danger:active{
+    background-color: #E74C3C;
+    color: #EDBB99;
+}

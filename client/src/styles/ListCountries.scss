@@ -1,0 +1,65 @@
+.table{
+    color:#616A6B;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+thead{
+    background-color: $color;
+}
+
+th{
+    font-weight: normal;
+    padding: 0.5em 1em;
+    color: $bg_color;
+}
+
+td{
+    border-bottom: 1px solid $color;
+    padding: 0.4em 1em;
+}
+
+tbody tr:hover{
+    cursor: pointer;
+    background-color: $color_hover;
+    opacity: 0.8;
+}
+
+.col-right{
+    text-align: right;
+}
+
+.col-center{
+    text-align: center;
+}
+
+.col-left{
+    text-align: left;
+}
+
+
+.link-row{
+    color: $bg_color;
+}
+
+.link-row:hover{
+    font-weight: bold;
+}
+
+.link-row:active{
+    color: red;
+}
+
+
+
+.link-header{
+
+}
+
+.link-header:hover{
+    cursor: pointer;
+    color: #fff;
+}

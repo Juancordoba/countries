@@ -1,0 +1,61 @@
+.card-activity{
+    border: 1px solid $color;
+    margin-top: 0.5em;
+    width: 15em;
+    margin: 0.5em
+}
+
+.card-activity-header{
+    background-color: $color;
+    color: $bg_color;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-activity-body{
+    display: flex;
+    justify-content: space-around;
+    padding: 0em;
+}
+
+.lbl-left{
+    width: 35%;
+    text-align: left;
+    text-align: right;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.2em;
+    color: $bg_color;
+    border-bottom: 1px solid $color_hover;
+}
+
+.lbl-right{
+    color: #1B4F72;
+    width: 65%;
+    text-align: left;
+    padding-left: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid $color_hover;
+}
+
+.lbl-countries{
+    font-size: small;
+}
+
+.ul-country{
+    text-decoration: none;
+    list-style:none;
+    text-align: left;
+    color:#21618C;
+}
+
+.li-country{
+    text-decoration: none;
+}
+
+.li-country:hover{
+    cursor: pointer;
+    color: #239B56;
+}

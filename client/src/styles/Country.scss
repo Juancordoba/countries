@@ -1,0 +1,86 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: "fixed";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: "rgba(0,0,0,.2)";
+  };
+
+.card-modal{
+    background-color: #fff;
+    border-radius: 0.4em;
+}
+
+  .card-country{
+    display:flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 1em;
+    }
+
+    .flag{
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-flag{
+        width: 100%;
+    }
+
+    .details{
+        width: 25vw;
+        text-align: right;
+    }
+
+    .card-country-item{
+     //   border-bottom: 1px solid $color;
+        display: flex;
+        justify-content: left;
+    }
+
+    .label-left{
+        background-color: $color_hover;
+        width: 30%;
+        text-align: left;
+        text-align: right;
+        color: $bg_color;
+        padding: .2em 0.5em;
+        font-weight: bold;
+        padding: 1.1vh 0em;
+    }
+
+    .label-right{
+        padding-left: 10vh;
+        width: 70%;
+        text-align: left;
+        border-bottom: 1px solid $color_hover;
+        padding: .2em 1em;
+        color: #888;
+    }
+
+    .small{
+        font-size: small;
+        color: $bg_color;
+    }
+
+
+    .btn-modal{
+        margin: 1em 0em;
+        color: $bg_color;
+        font-size: larger;
+    }
+
+    .btn-modal:hover{
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .btn-modal:active{
+        color: red;
+    }

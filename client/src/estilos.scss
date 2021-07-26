@@ -1,0 +1,85 @@
+@import "./styles/variables.scss";
+@import "./styles/Home.scss";
+@import "./styles/Navigation.scss";
+@import "./styles/Countries.scss";
+@import "./styles/ActivityForm.scss";
+@import "./styles/Paginate.scss";
+@import "./styles/ListCountries.scss";
+@import "./styles/CardActivity.scss";
+@import "./styles/Country.scss";
+@import "./styles/ListActivities.scss";
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color_hover;
+    color: $bg_color;
+    height: 8vh;
+    padding-left: 0.5em;
+}
+
+.card{
+    margin: 0.5em 0.5em;
+}
+
+.border{
+   border: 1px solid $color;
+   border-radius: 0.2em;
+}
+
+.card-100{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-header{
+    //background-color: $color;
+    padding-left: 0.5em;
+    color: $bg_color;
+    text-align: left;
+    font-size: small;
+}
+
+.card-body{
+    text-align: left;
+    padding: 1em 2em;
+    color: #616A6B;
+}
+
+.container{
+    display: flex;
+    align-self: center;
+    height: 84vh;
+}
+
+
+.col-20{
+    text-align: center;
+    width: 19%;
+//    background-color: $color_left;
+//    background-color: #616A6B;
+}
+
+.col-80{
+    text-align: center;
+    width: 80%;
+  //  background-color: aqua;
+}
+
+.col-30{
+    padding: auto;
+    padding-top: 2em;
+    text-align: center;
+    width: 19%;
+    background-color: $color_left;
+    //height: 80vh;
+}
+
+.col-70{
+    padding-top: 2em;
+    text-align: center;
+    width: 70%;
+
+}
